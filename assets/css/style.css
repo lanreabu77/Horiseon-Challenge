@@ -45,12 +45,30 @@ header {
     display: inline-block;
     margin-left: 25px;
 }
-nav {
-    justify-content: right;
+/* nav {
+    justify-content:right
     display: flex;
     background-color: #2a607c;
 
 
+} */
+/* Use nav to provide navigation link */
+nav {
+
+    display: flex;
+    background-color: #2a607c;
+    float:right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    line-height: 200%;
+    
+}
+
+nav a {
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 20px;
+   
 }
 
 a {
@@ -88,7 +106,18 @@ p {
     margin-left: 20px;
 }
 
-.benefits {
+aside {
+    padding: 2%;
+    display: inline-block;
+    vertical-align: top;
+    max-width: 20%;
+    background-color: #2589bd;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:inherit
+    
+}
+/* changed class to Aside */
+/* .benefits {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -97,7 +126,7 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
+} */
 /* Using commas to separate selectors */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
