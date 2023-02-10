@@ -106,14 +106,29 @@ p {
     margin-left: 20px;
 }
 
+
 aside {
-    padding: 2%;
+    padding: 0.2%;
     display: inline-block;
-    vertical-align: top;
-    max-width: 20%;
+    vertical-align:top;
+    margin: 0px;
+    max-width: 20.5%;
     background-color: #2589bd;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align:inherit
+    text-align:initial;    
+}
+
+aside h3 {
+line-height:350%
+}
+
+section h2{
+    margin: 50px;
+    padding: 0%;
+    max-height: 20px;
+    display: block;
+    max-width: 0%;
+    background-color: #0072bb;
     
 }
 /* changed class to Aside */

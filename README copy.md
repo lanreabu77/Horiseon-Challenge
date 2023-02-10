@@ -54,6 +54,7 @@ SO THAT our own site is optimized for search engines
 
 ## Acceptance Criteria
 
+<!-- Acceptnace Criteria met -->
 ```
 GIVEN a webpage meets accessibility standards
 WHEN I view the source code
